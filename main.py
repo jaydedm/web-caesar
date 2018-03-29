@@ -11,7 +11,6 @@ form = """
      <head>
         <title>Web Caesar</title>
     </head>
-        <h1>Hey!</h1>
         <style>
             form {{
                 background-color: #eee;
@@ -30,7 +29,7 @@ form = """
     </head>
     <body>
          <form method= "POST" action="/encrypt">
-                <textarea name = "text"> {0} </textarea>
+                <textarea name = "text">{0}</textarea>
             <label>Rotate by:
                 <input type = "text" name = "rot" value=0>
             </label>
